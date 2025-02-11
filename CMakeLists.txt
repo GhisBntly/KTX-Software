@@ -1083,7 +1083,7 @@ if(KTX_FEATURE_TOOLS)
 endif()
 
 # Tests
-add_subdirectory(tests)
+#add_subdirectory(tests) <== remove for AdvViz (reduce sub-deps causing false positives with Mend)
 
 # Documentation
 if(KTX_FEATURE_DOC)
